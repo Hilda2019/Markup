@@ -44,23 +44,24 @@ html, body {
 .task2 {
     height: 300px;
     width: 500px;
+    position: relative;
     /* я сдаюсь! ПОжалуйста, подскажите как это спозиционировать красиво. 
     Я не смогла навесить на родителя адекватное позиционирование. */
 }
 
-h1 {
+.task2 h1 {
     position: fixed;
     top: 50px;
     right: 50px;
 }
 
-h2 {
+.task2 h2 {
     position: relative;
     left: 20px;
     bottom: 30px;
 }
 
-h3 {
+.task2 h3 {
     position: absolute;
     left: 50px;
     top: 100px;
